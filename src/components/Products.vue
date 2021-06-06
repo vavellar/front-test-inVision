@@ -59,11 +59,12 @@ export default {
     margin-left: 20px;
 }
 
-@media (min-width: 1000px) {  
+@media (min-width: 895px) {  
   .products-card {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
   }
 
   .card-box {
